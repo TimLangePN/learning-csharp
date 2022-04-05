@@ -18,7 +18,7 @@
             {
                 Console.WriteLine(user);
             }
-            if (user.Equals(""))
+            if (user.Equals(String.Empty))
             {
                 Console.WriteLine("no value given");
             }
