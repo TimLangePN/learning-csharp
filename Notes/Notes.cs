@@ -27,6 +27,21 @@
     A function is directly called by its name, whereas a method includes a code that is called by the object's name.
     me.Fly(); -> method
 
+    Access modifier - return type - method name - parameters
+    public string GetFullName(string Firstname, string Lastname)
+
+    void
+    The void keyword is used in method signatures to declar that it doesn't return a value.
+
+    Fields vs properties
+    Properties expose fields. Fields should (almost always) be kept private to a class and accessed via get and set properties.
+
+    public int Lives { get; set; } -> auto property.
+
+    get and set:
+    The get method returns a value
+    The set method assigns a value
+
     */
 
 }
