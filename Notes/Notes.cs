@@ -71,4 +71,10 @@ The Dependency Inversion Principle (DIP) states that high-level modules should n
 Both should depend on abstractions. 
 Abstractions should not depend on details, details should depend upon abstractions.
 
+Constructors:
+A constructor is a special method of the class which gets automatically invoked whenever an instance of the class is created.
+
+Overloading:
+Multiple methods with the same name but different signatures (or arguments).
+
 */
