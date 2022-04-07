@@ -4,7 +4,7 @@
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-
+            
         public void GetFullName()
         {
             Console.WriteLine($"Fullname = {FirstName}{LastName}");
@@ -15,5 +15,12 @@
             Console.WriteLine($"{FirstName}{LastName} Is eating!");
         }
 
+
+        public void Eat(string food)
+        {
+            Console.WriteLine($"{FirstName}{LastName} Is eating {food}!");
+        }
+
+        
     }
 }

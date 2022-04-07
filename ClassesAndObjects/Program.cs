@@ -5,11 +5,12 @@
         static void Main(string[] args)
         {
             //Instances of an object
-
             Person me = new Person();
             me.FirstName = "Tim";
             me.LastName = "Lange";
 
+            // Encapsulation
+            // Console.WriteLine($"Fullname = {FirstName}{LastName}");
             me.GetFullName();
             me.Eat();
 
@@ -21,6 +22,8 @@
             superman.Eat();
             superman.Fly();
 
+            //Polymorphism
+            superman.Eat("icecream");
         }
     }
 }
