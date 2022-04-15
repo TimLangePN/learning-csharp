@@ -77,4 +77,9 @@ A constructor is a special method of the class which gets automatically invoked 
 Overloading:
 Multiple methods with the same name but different signatures (or arguments).
 
+Static:
+A static member can only be referenced through the type name and not through an instance of the type. 
+Static cannot be used with a destructor, indexer or any type other than class
+
+
 */

@@ -8,13 +8,16 @@ namespace LoopLessApp
 {
     public class InputHandler
     {
-        public static void RecursiveWriter(string inputName, int counter)
+        public string InputName { get; set; }
+        public int Counter { get; set; }
+
+        public void RecursiveWriter(string InputName, int Counter)
         {
-            if(counter > 0)
+            if(Counter > 0)
             {
-                Console.WriteLine(inputName);
-                counter--;
-                RecursiveWriter(inputName, counter);
+                Console.WriteLine(InputName);
+                Counter--;
+                RecursiveWriter(InputName, Counter);
             }
         }
     }

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionsAndOperators", "ExpressionsAndOperators\ExpressionsAndOperators.csproj", "{3F9A8B33-5B8D-4D9F-B5A6-DE6B144E99F0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "Variables\Variables.csproj", "{373401E6-292B-4008-BC17-65D93D019203}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variable", "Variables\Variable.csproj", "{373401E6-292B-4008-BC17-65D93D019203}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlFlowSwitch", "ControlFlowSwitch\ControlFlowSwitch.csproj", "{8DC8BF3B-535A-4F39-9D8A-21962C819FE3}"
 EndProject
@@ -33,7 +33,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopThroughArray", "LoopThroughArray\LoopThroughArray.csproj", "{5AC19928-B0E2-4362-A2E0-CAED1A4A3FB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Params", "Params\Params.csproj", "{93F44277-9303-4743-82DB-218422E5E783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Param", "Params\Param.csproj", "{93F44277-9303-4743-82DB-218422E5E783}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum", "Enums\Enum.csproj", "{4B067CD1-6E7A-4939-B630-99C296F25689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constant", "Constant\Constant.csproj", "{D527542F-6154-4AB5-82CE-F53BD60AD3CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticNonStatic", "StaticNonStatic\StaticNonStatic.csproj", "{20FE84C7-709D-448B-B1C0-A7F4ED6C81EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +111,18 @@ Global
 		{93F44277-9303-4743-82DB-218422E5E783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93F44277-9303-4743-82DB-218422E5E783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93F44277-9303-4743-82DB-218422E5E783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B067CD1-6E7A-4939-B630-99C296F25689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B067CD1-6E7A-4939-B630-99C296F25689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B067CD1-6E7A-4939-B630-99C296F25689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B067CD1-6E7A-4939-B630-99C296F25689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D527542F-6154-4AB5-82CE-F53BD60AD3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D527542F-6154-4AB5-82CE-F53BD60AD3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D527542F-6154-4AB5-82CE-F53BD60AD3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D527542F-6154-4AB5-82CE-F53BD60AD3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FE84C7-709D-448B-B1C0-A7F4ED6C81EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FE84C7-709D-448B-B1C0-A7F4ED6C81EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FE84C7-709D-448B-B1C0-A7F4ED6C81EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FE84C7-709D-448B-B1C0-A7F4ED6C81EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
