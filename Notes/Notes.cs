@@ -1,4 +1,7 @@
 ﻿/*
+C# Is managed code, meaning that its managed by runtime and compiled down to machine code.
+
+
 
 while loop vs do while loop:
 A "While" Loop is used to repeat a specific block of code an unknown number of times, until a condition is met.
@@ -68,7 +71,7 @@ No client should be forced to implement methods which it does not use.
 
 Dependency Inversion Principle (DIP)
 The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules.
-Both should depend on abstractions. 
+Both should depend on abstractions. W
 Abstractions should not depend on details, details should depend upon abstractions.
 
 Constructors:
@@ -81,5 +84,23 @@ Static:
 A static member can only be referenced through the type name and not through an instance of the type. 
 Static cannot be used with a destructor, indexer or any type other than class
 
+Variable scope:
+The part of the application where that variable is being used and outside of that scope being disposed by the garbage collector.
 
-*/
+Garbage collector:
+The garbage collector frees up memory which was allocated but is no longer in use.
+
+Value types: (bool, decimal, int, float, double) -> stack 
+A value type stores it value within its own memory location.
+When passing a value type through a method it creates a separate copy.
+Passing a value type through a method will not affect the original value outside of that method.
+The value type gets cleaned up together with the instance it resides in.
+Local variables in methods get cleaned up upon method leave.
+
+Reference types: (String(immutable), class, array) -> heap
+Holds a memory address of a value not the value itself.
+When passing a reference variable to a method it can change the original value
+-- Garbage collector
+
+
+ */
