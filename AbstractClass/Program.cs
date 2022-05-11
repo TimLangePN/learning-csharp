@@ -8,6 +8,8 @@ namespace AbstractClass
         {
             Person tim = new Tim("Tim", "Lange");
             Console.WriteLine(tim.GetFullName());
+
+            tim.Greet();
         }
     }
 }

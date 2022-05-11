@@ -8,10 +8,15 @@ namespace AbstractClass
 {
     class Tim : Person
     {
-        public Tim(string firstname, string lastname) 
+        public Tim(string firstname, string lastname)
             : base(firstname, lastname)
         {
 
+        }
+
+        public override void Greet()
+        {
+            Console.WriteLine("Hello from override");
         }
     }
 }

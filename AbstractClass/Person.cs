@@ -16,6 +16,12 @@ namespace AbstractClass
             _firstname = firstname; //constructor
             _lastname = lastname;
         }
+
+        public virtual void Greet() 
+        {
+            Console.WriteLine("Hello from base class");
+        }
+
         public string GetFullName() //public method
         {
             return $"{_firstname} {_lastname}";
