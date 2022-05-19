@@ -102,5 +102,12 @@ Holds a memory address of a value not the value itself.
 When passing a reference variable to a method it can change the original value
 -- Garbage collector
 
+MVC: Model–view–controller
+- https://towardsdatascience.com/everything-you-need-to-know-about-mvc-architecture-3c827930b4c1
+
+Why do we inherit ControllerBase in web api controllers?
+- It's the base class for an MVC controller without view support.
+- The ControllerBase class provides many methods and properties for handeling HTTP requests, such as returning statuscodes.
+- When writing an API, using the ControllerBase class is better than the Controller class, since we won't be doing anything with these Views (It's for handling webpages)
 
  */
